@@ -14,6 +14,7 @@ function Hi() {
       <div className="content">
         <img src={image1} alt="" />
         <h1>Muhammad Naufel</h1>
+        <p>Developer Who has passion for web and app technologies. Always ready to learn new technologies and to work in them. my first priority is to given my best in terms of what i have and indulge you at every level. </p>
         <div className="github">
           <p>  <img src={github} alt="" /> Github</p>
         </div>

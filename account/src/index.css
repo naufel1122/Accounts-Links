@@ -23,7 +23,7 @@ code {
 }
 
 .container {
-  height: 700px;
+  min-height: 770px;
   width: 550px;
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0));
   backdrop-filter: blur(20px);
@@ -31,6 +31,9 @@ code {
   border-radius: 20px;
   /* border:1px solid rgba(255, 255, 255, 0.18); */
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .content {
@@ -38,6 +41,7 @@ code {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
 }
 
 .content img {
@@ -48,22 +52,29 @@ code {
 }
 
 .content h1 {
-  font-size: 36px;
-  text-transform: uppercase;
+  font-size: 24px;
+  /* text-transform: uppercase; */
   text-align: center;
   font-weight: 700;
   color: #fff;
   text-shadow: -10px 10px 7px #333;
 }
 
+.content p{
+  text-align: center;
+  font-weight: 500;
+  line-height: 18px;
+  /* color:#fff; */
+}
+
 .content .github {
   display: flex;
   flex-direction: row;
-  margin-top: 30px;
+  margin-top: 20px;
   height: 40px;
   width: 80%;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 
@@ -73,12 +84,12 @@ code {
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .content .github img{
-  height: 32px;
-  width: 32px;
+  height: 24px;
+  width: 24px;
   margin-bottom: 50px;
   margin-right: 10px;
 }
@@ -90,19 +101,19 @@ code {
   height: 40px;
   width: 80%;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 .content .linkedin p {
   display: flex;
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .content .linkedin img{
-  height: 32px;
-  width: 32px;
+  height: 28px;
+  width: 28px;
   margin-bottom: 50px;
   margin-right: 10px;
 }
@@ -114,7 +125,7 @@ code {
   height: 40px;
   width: 80%;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .content .instagram p {
@@ -122,12 +133,12 @@ code {
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .content .instagram img{
-  height: 32px;
-  width: 32px;
+  height: 36px;
+  width: 24px;
   margin-bottom: 50px;
   margin-right: 10px;
 }
@@ -140,7 +151,7 @@ code {
   height: 40px;
   width: 80%;
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .content .Facebook p {
@@ -148,11 +159,11 @@ code {
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .content .Facebook img{
-  height: 32px;
+  height: 24px;
   width: 32px;
   margin-bottom: 50px;
   margin-right: 10px;
@@ -174,12 +185,12 @@ code {
   justify-content: center;
   align-items: center;
   font-weight: 500;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 .content .Resume img{
-  height: 32px;
-  width: 32px;
+  height: 24px;
+  width: 28px;
   margin-bottom: 50px;
   margin-right: 10px;
 }
