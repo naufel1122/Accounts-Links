@@ -11,16 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.main{
+
+.main {
   background-image: url(./back2.jpg);
   /* background-image: url('./Intro\ link.jpg'); */
   background-size: cover;
-  min-height:100vh ;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container{
+
+.container {
   height: 700px;
   width: 550px;
   background: linear-gradient(135deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0));
@@ -30,19 +32,22 @@ code {
   /* border:1px solid rgba(255, 255, 255, 0.18); */
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-.content{
+
+.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.content img{
+
+.content img {
   height: 10rem;
   width: 10rem;
   border-radius: 50%;
   margin-top: 50px;
 }
-.content h1{
+
+.content h1 {
   font-size: 36px;
   text-transform: uppercase;
   text-align: center;
@@ -50,7 +55,10 @@ code {
   color: #fff;
   text-shadow: -10px 10px 7px #333;
 }
-.content .github{
+
+.content .github {
+  display: flex;
+  flex-direction: row;
   margin-top: 30px;
   height: 40px;
   width: 80%;
@@ -58,31 +66,120 @@ code {
   border-radius: 20px;
 }
 
-.content .linkedin{
+
+
+.content .github p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.content .github img{
+  height: 32px;
+  width: 32px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+.content .linkedin {
+  display: flex;
+  flex-direction: row;
   margin-top: 30px;
   height: 40px;
   width: 80%;
   background-color: #fff;
   border-radius: 20px;
 }
-.content .instagram{
+.content .linkedin p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.content .linkedin img{
+  height: 32px;
+  width: 32px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+.content .instagram {
+  display: flex;
+  flex-direction: row;
   margin-top: 30px;
   height: 40px;
   width: 80%;
   background-color: #fff;
   border-radius: 20px;
 }
-.content .Facebook{
+
+.content .instagram p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.content .instagram img{
+  height: 32px;
+  width: 32px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+
+.content .Facebook {
+  display: flex;
+  flex-direction: row;
   margin-top: 30px;
   height: 40px;
   width: 80%;
   background-color: #fff;
   border-radius: 20px;
 }
-.content .Resume{
+
+.content .Facebook p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.content .Facebook img{
+  height: 32px;
+  width: 32px;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+
+
+.content .Resume {
+  display: flex;
+  flex-direction: row;
   margin-top: 30px;
   height: 40px;
   width: 80%;
   background-color: #fff;
   border-radius: 20px;
+}
+
+.content .Resume p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.content .Resume img{
+  height: 32px;
+  width: 32px;
+  margin-bottom: 50px;
+  margin-right: 10px;
 }
