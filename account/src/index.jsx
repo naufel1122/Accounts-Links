@@ -16,19 +16,20 @@ function Hi() {
         <h1>Muhammad Naufel</h1>
         <p>Developer Who has passion for web and app technologies. Always ready to learn new technologies and to work in them. my first priority is to given my best in terms of what i have and indulge you at every level. </p>
         <div className="github">
-          <p>  <img src={github} alt="" /> Github</p>
+          <a href="https://github.com/naufel1122">  <img src={github} alt="" /> Github</a>
         </div>
         <div className="linkedin">
-          <p><img src={linkedin} alt="" />Linkedin</p>
+          <a href="https://www.linkedin.com/in/muhammad-nofil-629766261/"><img src={linkedin} alt="" />Linkedin</a>
         </div>
         <div className="instagram">
-          <p><img src={instagram} alt="" />Instagram</p>
+          <a href="https://www.instagram.com/muhammad_naufel/"><img src={instagram} alt="" />Instagram</a>
         </div>
         <div className="Facebook">
-          <p><img src={facebook} alt="" />Facebook</p>
+          <a href="https://www.facebook.com/profile.php?id=100010828694071"><img src={facebook} alt="" />Facebook</a>
         </div>
         <div className="Resume">
-          <p><img src={whatsapp} alt="" />WhatsApp</p></div>
+          <a href="https://wa.me/923240539139"><img src={whatsapp} alt="" />WhatsApp</a>
+        </div>
       </div>
     </div>
   </div>)
