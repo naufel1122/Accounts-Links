@@ -27,7 +27,7 @@ function Hi() {
         <div className="Facebook">
           <a href="https://www.facebook.com/profile.php?id=100010828694071"><img src={facebook} alt="" />Facebook</a>
         </div>
-        <div className="Resume">
+        <div  className="Resume">
           <a href="https://wa.me/923240539139"><img src={whatsapp} alt="" />WhatsApp</a>
         </div>
       </div>

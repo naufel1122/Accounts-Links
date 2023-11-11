@@ -78,10 +78,11 @@ content {
 }
 
 .content > img {
-  height: 10rem;
-  width: 10rem;
+  height: 11rem;
+  width: 11rem;
   border-radius: 50%;
   margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .content h1 {
@@ -110,6 +111,7 @@ content {
   width: 80%;
   background-color: #fff;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 
@@ -139,6 +141,7 @@ content {
   width: 80%;
   background-color: #fff;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .content .linkedin a {
@@ -166,6 +169,7 @@ content {
   width: 80%;
   background-color: #fff;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .content .instagram a {
@@ -194,6 +198,7 @@ content {
   width: 80%;
   background-color: #fff;
   border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .content .Facebook a {
@@ -222,6 +227,7 @@ content {
   width: 80%;
   background-color: #fff;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .content .Resume a {
