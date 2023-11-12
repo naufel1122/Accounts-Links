@@ -100,7 +100,7 @@ content {
   text-align: center;
   /* font-family: 'Dancing Script', cursive; */
   font-family: 'Encode Sans SC', sans-serif;
-  font-weight: 900;
+  font-weight: 600;
   color: #fff;
   text-shadow: -10px 10px 7px #333;
 }
@@ -140,7 +140,7 @@ content {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 15px;
 }
 
@@ -168,7 +168,7 @@ content {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 15px;
 }
 
@@ -196,7 +196,7 @@ content {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 15px;
 }
 
@@ -225,7 +225,7 @@ content {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 15px;
 }
 
@@ -254,7 +254,7 @@ content {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 15px;
 }
 
